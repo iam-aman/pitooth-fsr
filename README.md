@@ -1,6 +1,6 @@
 # pitooth-fsr
 
-A stack which allows a force-sensitive resistor to act as a Bluetooth keyboard and send keystrokes when the resistor is depressed.
+A stack which allows a force-sensitive resistor connected to a Raspberry Pi to act as a Bluetooth keyboard and send keystrokes when the resistor is depressed.
 
 ## Compiling & Installing Dependencies
 
@@ -14,6 +14,10 @@ A stack which allows a force-sensitive resistor to act as a Bluetooth keyboard a
 
     g++ -o keystroke keystroke.c
     sudo cp keystroke /usr/local/bin
+
+## Wiring
+
+![Wiring Diagram](wiring.jpg)
 
 ## Running
 
